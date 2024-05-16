@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poppins&family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-bg-color: #ffffff;
+    --primary-color: #00ccff;
+    --secondary-bg-color: #272936;
+    --secondary-color: #E966A0;
+    --default-padding: 15px;
+}
+.invert-photo{
+    z-index: 0;
+    filter: saturate(0);
+}
+.poppins-font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.sora-font {
+    font-family: 'Sora', sans-serif;
+}
+
+/* .root{
+    height: 100vh;
+    width: 100vw;
+} */
+
+.active {
+    transform: scale(130%);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #00ccff;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #272936;
+    border-radius: 10px;
+}
+
+
+/* Track */
+.dark ::-webkit-scrollbar-track {
+    background: #E966A0;
+    border-radius: 10px;
+}
+
+/* Handle */
+.dark ::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 10px;
+}
